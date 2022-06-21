@@ -1,0 +1,3 @@
+export const  COCKTAILS_LIST = 'COCKTAILS_LIST'
+export const  FIND_LIST = 'FIND_LIST'
+export const DETAIL_COCKTAIL = 'DETAIL_COCKTAIL'

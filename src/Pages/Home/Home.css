@@ -1,0 +1,41 @@
+.output{
+    margin: 0 auto;
+    height: 70vh;
+    background: rgba(255,255,255,0.1 );
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px;
+    
+}
+.img{
+    width: 400px;
+    height: 400px;
+}
+.input{
+    position: relative;
+    width: 150%;
+    height: 100%;
+    border: none;
+    padding: 10px 55px;
+    
+    outline: none;
+    font-size: 1.1em;
+    text-align: center;
+    color: #555;
+    background: linear-gradient(#dbdae1, #a3aaba);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1),
+    15px 15px 15px rgba(0, 0, 0, 0.1),
+    20px 20px 15px rgba(0, 0, 0, 0.1),
+    30px 30px 15px rgba(0, 0, 0, 0.1),
+    inset 1px 1px 2px #fff;
+
+    width: 50%;
+    display: flex;
+    margin: auto;
+    z-index: 100;
+    transition: 0.6s;
+}
+body{
+   background-color: #555;
+}
